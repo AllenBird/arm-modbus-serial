@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaacov/node-modbus-serial.git"
+    "url": "git@github.com:AllenBird/node-modbus-serial.git"
   },
   "keywords": [
     "modbus",
@@ -18,12 +18,11 @@
     "com",
     "arduino"
   ],
-  "author": "Yaacov Zamir <kobi.zamir@gmail.com>",
+  "author": ["Yaacov Zamir <kobi.zamir@gmail.com>", "daip"],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yaacov/node-modbus-serial/issues"
-  },
-  "homepage": "https://github.com/yaacov/node-modbus-serial#readme",
+  "dependencies": {
+    "arm-serialport": "*"
+  }
   "devDependencies": {
     "chai": "^3.4.0",
     "mocha": "^2.3.3",
