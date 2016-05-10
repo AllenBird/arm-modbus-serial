@@ -1,6 +1,6 @@
 // Create serial port
 var SerialPort = require("serialport").SerialPort;
-var serialPort = new SerialPort("/dev/ttyUSB0", {baudrate: 9600});
+var serialPort = new SerialPort("/dev/ttyS1", {baudrate: 9600});
 var lastAns = Date.now();
 
 // Create modbus master
