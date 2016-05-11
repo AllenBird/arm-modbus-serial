@@ -20,9 +20,6 @@
   ],
   "author": ["Yaacov Zamir <kobi.zamir@gmail.com>", "daip"],
   "license": "ISC",
-  "dependencies": {
-    "arm-serialport": "*"
-  },
   "devDependencies": {
     "chai": "^3.4.0",
     "mocha": "^2.3.3",
